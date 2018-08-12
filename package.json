@@ -1,8 +1,11 @@
 {
   "name": "named-import",
   "description": "a dynamic import sugar syntax function",
-  "version": "0.0.0-pre",
-  "files": ["index.mjs", "index.js"],
+  "version": "0.0.0",
+  "files": [
+    "index.mjs",
+    "index.js"
+  ],
   "scripts": {
     "start": "abby format, test --watch \"*.mjs\"",
     "test": "node --experimental-modules test.mjs",
