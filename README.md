@@ -45,7 +45,7 @@ import namedImport from "named-import";
 
 Incompatible Code Splitting
 ---
-Can't be used for [code-splitting of webpack.](https://webpack.js.org/guides/code-splitting/) (TODO)
+See also [babel-plugin-experimental-syntax-dynamic-import](https://github.com/59naga/babel-plugin-experimental-syntax-dynamic-import).
 
 License
 ---
