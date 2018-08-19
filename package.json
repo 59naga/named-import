@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "start": "abby format, test --watch \"*.mjs\"",
-    "test": "node --experimental-modules test.mjs",
+    "test": "node --experimental-modules --no-warnings test.mjs",
     "format": "prettier \"*.mjs\" --write",
     "build": "babel index.mjs --out-file index.js",
     "postversion": "git push --follow-tags && conventional-github-releaser -p atom"
@@ -20,7 +20,7 @@
     "@babel/plugin-transform-modules-commonjs": "^7.0.0-rc.1",
     "abigail": "^1.9.5",
     "babel-plugin-add-module-exports": "^0.3.2",
-    "eastern": "^0.0.5",
+    "eastern": "^1.0.1",
     "prettier": "^1.14.2"
   },
   "repository": {
