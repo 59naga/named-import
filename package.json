@@ -8,19 +8,20 @@
   ],
   "scripts": {
     "start": "abby format, test --watch \"*.mjs\"",
-    "test": "node --experimental-modules --no-warnings test.mjs",
+    "test": "eastern test.mjs",
     "format": "prettier \"*.mjs\" --write",
     "build": "babel index.mjs --out-file index.js",
     "postversion": "git push --follow-tags && conventional-github-releaser -p atom"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0-rc.1",
-    "@babel/core": "^7.0.0-rc.1",
-    "@babel/plugin-syntax-dynamic-import": "^7.0.0-rc.1",
-    "@babel/plugin-transform-modules-commonjs": "^7.0.0-rc.1",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0",
     "abigail": "^1.9.5",
-    "babel-plugin-add-module-exports": "^0.3.2",
-    "eastern": "^1.0.1",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "eastern": "^2.0.0",
+    "eastern-cli": "^1.0.0",
     "prettier": "^1.14.2"
   },
   "repository": {
